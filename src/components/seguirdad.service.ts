@@ -1,8 +1,8 @@
-import { Usuario } from "../components/user.component";
-import { LoginData } from "../components/login.component";
 import { Injectable } from "@angular/core";
 import { Subject } from "rxjs";
 import { Router } from "@angular/router";
+import { Usuario } from "./seguridad/user.model";
+import { LoginData } from "./seguridad/login.model";
 
 
 @Injectable({
