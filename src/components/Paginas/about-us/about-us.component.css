@@ -1,0 +1,53 @@
+.about-me-container {
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+mat-card {
+  height: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+mat-card-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+mat-card-subtitle {
+  font-size: 1.2em;
+  color: #666;
+}
+
+mat-card-content {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.introduction {
+  text-align: center; /* Centra el texto horizontalmente */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 20px; /* Espaciado interno */
+  max-width: 800px; /* Ancho máximo del contenedor */
+}
+
+.title {
+  font-size: 3rem; /* Tamaño grande para el título */
+  font-weight: bold; /* Texto en negrita */
+  margin-bottom: 20px; /* Espacio debajo del título */
+  color: #333; /* Color del texto */
+}
+
+.description {
+  font-size: 1.2rem; /* Tamaño del texto */
+  line-height: 1.6; /* Espaciado entre líneas */
+  color: #666; /* Color del texto */
+}
+
+div{
+  margin: 30px 0px; /* Espacio debajo de cada elemento */
+}

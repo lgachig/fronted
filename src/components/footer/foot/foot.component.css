@@ -1,0 +1,26 @@
+.iconos img {
+  margin-right: 15px;
+  width: 60px;
+  height: 60px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+#footer-section {
+  display: flex;
+  justify-content: center;  /* Centra horizontalmente */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;  /* Limita el tamaño máximo del contenedor */
+}
+
+.row {
+  width: 100%;
+}

@@ -1,0 +1,25 @@
+mat-nav-list {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+mat-list-item {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px;
+}
+
+mat-list-item:hover {
+  background-color: #e0e0e0;
+}
+
+mat-expansion-panel {
+  margin-top: 10px;
+}
+.contenedor{
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenedor */
+  align-items: center; /* Centra verticalmente sin superponerse al footer */
+  min-height: calc(100vh - 350px); /* Ajusta para no superponer footer/header */
+  padding: 20px;
+}

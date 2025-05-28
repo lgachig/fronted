@@ -1,0 +1,34 @@
+/* styles.css */
+header {
+  position: fixed; /* Fija el header en la parte superior */
+  top: 0;          /* Alineado en la parte superior */
+  left: 0;
+  width: 100%;     /* El header ocupa todo el ancho de la pantalla */
+  z-index: 1050;   /* Asegura que el navbar quede encima de otros elementos */
+  background-color: #f4e9cd; /* Color de fondo para que se vea bien */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para darle un toque de profundidad */
+  color: white;
+}
+
+nav {
+  padding-top: 10px; /* Ajuste si es necesario */
+}
+
+/* Evitar que el contenido quede oculto debajo del navbar */
+body {
+  padding-top: 60px; /* Ajusta este valor según la altura de tu navbar */
+}
+  /* Colores activos */
+  .nav-link.active {
+    background-color: #F4E9CD;
+    color: #031a26;
+  }
+  /* Colores cuando se pasa el cursor sobre un enlace */
+  .nav-link:hover {
+    background-color: #F4E9CD;
+    color: #031a26;
+  }
+
+a{
+  color: white;
+}

@@ -1,0 +1,35 @@
+<header style="background-color: #031a26;">
+  <ul class="nav nav-tabs justify-content-end position-relative">
+    <div class="position-absolute top-50 start-0 translate-middle-y" style="padding-left: 20px; ">
+      <img src="/assets/fonlogo.png" alt="" style="width: 50px; height: 50px;">
+      FinEdu
+    </div>
+    <li class="nav-item">
+      <a class="nav-link" *ngIf="!statusUser" routerLink="/home" routerLinkActive="active" >Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" *ngIf="!statusUser" routerLink="registrar" routerLinkActive="active" >Registrar</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" *ngIf="!statusUser" routerLink="login" routerLinkActive="active" >Login</a>
+    </li>
+    <li class="nav-item">
+      <a (click)="exitSesion()" class="nav-link" *ngIf="statusUser" routerLink="" routerLinkActive="active" >Salir</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/edu-fina" routerLinkActive="active" >Educación financiera</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/com-banco" routerLinkActive="active" >Comparador de Bancos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/ban-segu" routerLinkActive="active" >Bancarización y seguridad</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/recursos" routerLinkActive="active" >Recursos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/asd" fragment="footer-section" routerLinkActive="active" >Contactos</a>
+    </li>
+  </ul>
+</header>

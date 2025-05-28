@@ -1,0 +1,20 @@
+.contenedor {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenedor */
+  align-items: center; /* Centra verticalmente sin superponerse al footer */
+  min-height: calc(100vh - 350px); /* Ajusta para no superponer footer/header */
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px; /* Ajusta el ancho */
+  width: 100%;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+}
+.accordion-container {
+  width: 100%;
+}

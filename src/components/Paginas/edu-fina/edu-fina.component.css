@@ -1,0 +1,41 @@
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  border-radius: 4px 4px 0 0;
+}
+
+.list-group-item {
+  border-bottom: 1px solid #eee; /* Línea divisoria entre temas */
+}
+
+.btn i {
+  margin-right: 8px; /* Espacio entre el ícono y el texto */
+}
+
+.contenedor{
+  padding: 60px;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+}
+.btn-secondary{
+  background-color: #77aca2;
+  color: white;
+  border-color: #f8f9fa;
+}
+.btn-secondary:hover{
+  background-color: #468189;
+  color: white;
+  border-color: #f8f9fa;
+}
+.accordion-container {
+  width: 100%;
+}
+
+.container-fluid {
+  padding: 20px;
+}
