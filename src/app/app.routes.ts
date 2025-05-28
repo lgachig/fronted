@@ -8,7 +8,6 @@ import {ComBancoComponent} from '../components/Paginas/com-banco/com-banco.compo
 import {BanSeguComponent} from '../components/Paginas/ban-segu/ban-segu.component';
 import {RecursosComponent} from '../components/Paginas/recursos/recursos.component';
 import {CursoComponent} from '../components/Paginas/curso/curso.component';
-import {PruebasComponent} from '../components/Paginas/pruebas/pruebas.component';
 
 export const routes: Routes = [
   {
@@ -32,8 +31,5 @@ export const routes: Routes = [
     path:'', component: HomeComponent
   },{
     path:'curso', component: CursoComponent
-  },
-  {
-    path:'pruebas', component: PruebasComponent
   }
 ];
